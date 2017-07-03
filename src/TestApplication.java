@@ -7,10 +7,21 @@ public class TestApplication {
 
         AbonneRevue a1 = new AbonneRevue(0, "David Boutet");
         AbonneRevue a2 = new AbonneRevue(0, "David Boutet2");
+        AbonneRevue a3 = new AbonneRevue(0, "David Boutet3");
+        AbonneRevue a6 = new AbonneRevue(0, "David Boutetremplacer");
+        AbonneRevue a4 = new AbonneRevue(5, "David Boutet4");
+        AbonneRevue a5 = new AbonneRevue(5, "David Boutet5");
 
         listChaine.ajouter(a1);
         listChaine.ajouter(a2);
-//        println(listChaine.groupeExiste(0));
+        listChaine.ajouter(a3);
+        listChaine.ajouter(a4);
+        listChaine.ajouter(a5);
+
+
+
+
+
     }
 
     public static void println(Object o){
