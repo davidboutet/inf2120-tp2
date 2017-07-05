@@ -12,13 +12,11 @@ public class ListeGroupesChainee<T extends IGroupe> implements IListeGroupes<T> 
     //instance attributes
     private ArrayList<MaillonListe<T>> elements;
     private int nbrElements;
-
-
++
     //constructor
     public ListeGroupesChainee(){
         this.elements = new ArrayList<MaillonListe<T>>();
     }
-
 
     //methods
     /**
